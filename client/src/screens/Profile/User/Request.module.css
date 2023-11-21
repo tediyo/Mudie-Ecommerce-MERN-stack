@@ -1,0 +1,30 @@
+
+.p1 {
+    width: 600px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-variant-ligatures: normal;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #2323fa;
+}
+
+.p2 {
+    width: 460px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-variant-ligatures: normal;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: red;
+    text-decoration-line: underline;
+    
+}
+
+.p3 {
+  font-family:  "Courier New";
+}
