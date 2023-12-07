@@ -41,7 +41,7 @@ import CustomRangeSlider from "./RangeSlider";
 
 const searchClient = algoliasearch(
   "9QCAETKPVH",
-  "41457df7eb6cc57bcc554252f719a74a"
+  "fd624d310565851d10ca99df0712084e"
 );
 
 const Shop = () => {
