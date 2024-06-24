@@ -99,7 +99,7 @@ if (process.env.NODE_ENV != "test") {
   Product.SetAlgoliaSettings({
     searchableAttributes: ["name", "brand", "category", "description", "price"],
     attributesForFaceting: ["category", "brand", "price"],
-  });
+  });/*https://mdbgo.com/docs/getting-started/quick-start/*/
 }
 
 module.exports = Product;
