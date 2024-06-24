@@ -40,8 +40,8 @@ import {
 import CustomRangeSlider from "./RangeSlider";
 
 const searchClient = algoliasearch(
-  "9QCAETKPVH",
-  "fd624d310565851d10ca99df0712084e"
+  "Y6JSDGLU49",
+  "375363b555ca7cba6f0f167c5edf49a3"
 );
 
 const Shop = () => {
@@ -66,7 +66,7 @@ const Shop = () => {
 
   return (
     <>
-      <InstantSearch indexName="ecommercial_app" searchClient={searchClient}>
+      <InstantSearch indexName="mudiee12" searchClient={searchClient}>
         {mobile ? (
           <>
             <SearchAndFilters>
@@ -106,12 +106,12 @@ const Shop = () => {
                   </SidebarFilters>
                 </MobileFilterOverlay>
                 <SortBy
-                  defaultRefinement="ecommercial_app"
+                  defaultRefinement="mudiee12"
                   className="me-3"
                   items={[
-                    { value: "ecommercial_app", label: "Features" },
-                    { value: "price_asc", label: "Products." },
-                    /*{ value: "price_desc", label: "Price desc." },*/
+                    { value: "mudiee12", label: "Features" },
+                    { value: "price_asc", label: "price_ass." },
+                    { value: "price_desc", label: "Price desc." },
                   ]}
                 />
               </MobileFilterBar>
@@ -169,12 +169,12 @@ const Shop = () => {
               <MainContent>
                 <FilterBar>
                   <SortBy
-                    defaultRefinement="ecommercial_app"
+                    defaultRefinement="mudiee12"
                     className="me-3"
                     items={[
-                      { value: "ecommercial_app", label: "products" },
-                     /* { value: "price_asc", label: "products" },
-                     /* { value: "price_desc", label: "Price desc." },*/
+                      { value: "mudiee12", label: "products" },
+                     { value: "price_asc", label: "price_asc" },
+                      { value: "price_desc", label: "Price desc." },
                     ]}
                   />
                   <SearchBox className="w-50" />
